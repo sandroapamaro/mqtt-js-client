@@ -7,7 +7,7 @@ const options = {
 };
 
 // Connect to your cluster, insert your host name and port
-const client = window.mqtt.connect(wss://</HiveMQ><HiveMq cluster url>/mqtt', options);
+const client = window.mqtt.connect('wss://</HiveMQ><HiveMq cluster url>/mqtt', options);
 
 //Register all MQQT Client Events
 
