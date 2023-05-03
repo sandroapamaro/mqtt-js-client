@@ -1,13 +1,13 @@
 
 
-// Your MQQT credentials
+// Your MQQT credentials 
 const options = {
-  username: 'orama_mqqt',
-  password: 'Orama@140872@',
+  username: <HiveMQ credential username>,
+  password: <HiveMQ credential password>,
 };
 
 // Connect to your cluster, insert your host name and port
-const client = window.mqtt.connect('wss://c57076b3d243460c8bda8a9f5d427c4e.s2.eu.hivemq.cloud:8884/mqtt', options);
+const client = window.mqtt.connect(wss://</HiveMQ><HiveMq cluster url>/mqtt', options);
 
 //Register all MQQT Client Events
 
